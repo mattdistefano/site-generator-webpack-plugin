@@ -1,0 +1,1 @@
+{"version":3,"file":"to-string-asset.js","sourceRoot":"","sources":["../src/to-string-asset.ts"],"names":[],"mappings":";;AAAa,QAAA,aAAa,GAAG,UAAC,QAAgB;IAC5C,IAAM,CAAC,GAAG,IAAI,MAAM,CAAC,QAAQ,CAAC,CAAC;IAE/B,MAAM,CAAC;QACL,MAAM,EAAE,cAAM,OAAA,CAAC,EAAD,CAAC;QACf,IAAI,EAAE,cAAM,OAAA,CAAC,CAAC,UAAU,EAAZ,CAAY;KACzB,CAAC;AACJ,CAAC,CAAC"}

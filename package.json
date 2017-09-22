@@ -1,0 +1,27 @@
+{
+  "name": "@mattdistefano/site-generator-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Site generator webpack plugin for mattdistefano.com",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "clean": "del-cli \"dist/**\"",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "author": "Matt Distefano",
+  "license": "ISC",
+  "devDependencies": {
+    "@mattdistefano/site-generator": "git+https://github.com/mattdistefano/site-generator.git",
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^8.0.28",
+    "@types/webpack": "^3.0.11",
+    "del-cli": "^1.1.0",
+    "jasmine": "^2.8.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1",
+    "webpack-sort-chunks": "^0.1.0"
+  }
+}
