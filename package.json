@@ -1,6 +1,6 @@
 {
   "name": "@mattdistefano/site-generator-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Site generator webpack plugin for mattdistefano.com",
   "main": "dist/index",
   "typings": "dist/index",
@@ -12,15 +12,15 @@
   "author": "Matt Distefano",
   "license": "ISC",
   "devDependencies": {
-    "@mattdistefano/site-generator": "git+https://github.com/mattdistefano/site-generator.git",
-    "@types/jasmine": "^2.5.54",
-    "@types/node": "^8.0.28",
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.31",
     "@types/webpack": "^3.0.11",
     "del-cli": "^1.1.0",
     "jasmine": "^2.8.0",
-    "typescript": "^2.5.2"
+    "typescript": "^2.5.3"
   },
   "dependencies": {
+    "@mattdistefano/site-generator": "git+https://github.com/mattdistefano/site-generator.git",
     "tslib": "^1.7.1",
     "webpack-sort-chunks": "^0.1.0"
   }
