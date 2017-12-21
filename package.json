@@ -12,16 +12,16 @@
   "author": "Matt Distefano",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^2.6.0",
-    "@types/node": "^8.0.31",
-    "@types/webpack": "^3.0.11",
-    "del-cli": "^1.1.0",
-    "jasmine": "^2.8.0",
-    "typescript": "^2.5.3"
+    "@types/jasmine": "2.8.2",
+    "@types/node": "8.5.2",
+    "@types/webpack": "3.8.1",
+    "del-cli": "1.1.0",
+    "jasmine": "2.8.0",
+    "typescript": "2.6.2"
   },
   "dependencies": {
     "@mattdistefano/site-generator": "git+https://github.com/mattdistefano/site-generator.git",
-    "tslib": "^1.7.1",
-    "webpack-sort-chunks": "^0.1.0"
+    "tslib": "1.8.1",
+    "webpack-sort-chunks": "0.1.0"
   }
 }
